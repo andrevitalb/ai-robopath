@@ -24,5 +24,5 @@ Each time a robot either gets to the reward or the penalty, the execution will d
 When the execution is completed, the program displays a message, showing how many robots lost, how many won and, if any robot won, it displays also the paths used by the winners.
 
 <p align="center">
-	<img src="https://www.andrevital.com/extra/ai-robopath/images/paths.png" width="45%">
+	<img src="https://www.andrevital.com/extra/ai-robopath/images/paths.png" width="35%">
 </p>
