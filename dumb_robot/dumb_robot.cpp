@@ -6,13 +6,13 @@ using namespace std;
 int n, axis, dir, tempX, tempY, bots[10000][2], movs[10000][10000][2], winners[10000][2], wins;
 bool killBot;
 
-// Función para hacer impresión del tablero y de los movimientos de los robots
+// Function for printing the board & the robot movements
 void printBoard(int num, int x, int y){
 	system("CLS");
 
 	cout << "Robot #" << num + 1 << ":" << endl << endl;
 
-	printf("Posicion actual del robot: [%d][%d]\n\n", x, y);
+	printf("Robot's actual position: [%d][%d]\n\n", x, y);
 
 	for(int i = 0; i < 4; i++) {
 		for(int j = 0; j < 3; j++) {
@@ -26,7 +26,7 @@ void printBoard(int num, int x, int y){
 	}
 }
 
-// Inicializador del juego (Resetea los valores de todos los robots)
+// Initializa the game (Reset the values of all robots)
 void startGame(){
 	for(int i = 0; i < n; i++){
 		bots[i][0] = 0;
@@ -34,7 +34,7 @@ void startGame(){
 	}
 }
 
-// Función para generar los movimientos del robot (Lo genera y lo almacena en variables temporales)
+// Function for generating the robot movements (It generates them & stores them in temporal variables)
 void moveBot(int num){
 	axis = rand() % 2;
 	dir = rand() % 2;
@@ -56,15 +56,15 @@ void moveBot(int num){
 	}
 }
 
-// Función que corrobora los movimientos del robot 
-// Verifica que esté dentro del tablero y que no esté en la casilla bloqueada)
+// Function for corroborating the robot movements 
+// It verifies the movement is within the board and that it's not the blocked cell
 bool checkMove(){
     if(tempX == 1 && tempY == 1) return false;
 	if(tempX > -1 && tempX < 3 && tempY > -1 && tempY < 4) return true;
 	return false;
 }
 
-// Función que indica si el robot ha ganado o perdido (dependiendo en la casilla donde se encuentre)
+// Function for indicating if the robot has either won or lost (depending on it's current cell)
 int checkWin(int n){
 	if(bots[n][0] == 3 && bots[n][1] == 2) return 1;
 	if(bots[n][0] == 3 && bots[n][1] == 1) return -1;
@@ -74,7 +74,7 @@ int checkWin(int n){
 int main (){
 	srand (time(NULL));
 
-	printf("Dame el numero de robots a usar: ");
+	printf("Give me the number of desired robots: ");
 	scanf("%d", &n);
 
 	startGame();
@@ -94,23 +94,23 @@ int main (){
 			Sleep(200);
 
 			if(checkWin(i) == 1) {
-				printf("\nRobot #%d gana\n", i + 1);
+				printf("\nRobot #%d wins\n", i + 1);
 				Sleep(900);
 				winners[wins][0] = i;
 				winners[wins++][1] = j;
 				killBot++;
 			}
 			else if(checkWin(i) == -1) {
-				printf("\nRobot #%d pierde\n", i + 1);
+				printf("\nRobot #%d looses\n", i + 1);
 				Sleep(900);
 				killBot++;
 			}
 		}
 	}
 
-	printf("\nHubo %d robots que perdieron y %d que ganaron.\n", (n - wins), wins);
+	printf("\n%d robots lost and %d won.\n", (n - wins), wins);
 
-	if(wins) printf("Caminos utilizados por los ganadores: \n\n");
+	if(wins) printf("Paths used by the winners: \n\n");
 
 	for(int i = 0; i < wins; i++){
         printf("Robot %d:\n", winners[i][0] + 1);
