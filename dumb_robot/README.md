@@ -5,7 +5,7 @@ This is the starting version (or the first level). In this version, all decision
 There is just one input value to this program: *the number of tests or robots desired to run*.
 
 <p align="center">
-	<img src="https://www.andrevital.com/extra/ai-robopath/images/input.png" width="60%">
+	<img src="https://www.andrevital.com/extra/ai-robopath/images/input.png" width="45%">
 </p>
 
 When the input is entered, the program starts to run *n* tests, printing each movement the robot makes, alongside its current position.
