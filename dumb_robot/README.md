@@ -1,18 +1,20 @@
-# Robo-Labyrinth (3 levels)
-
-Three versioned Python / C/C++ program, consisting of three different implementations of a path finding agent towards a unique goal.
-
-### 1. Dumb Robot
+# Dumb Robot
 
 This is the starting version (or the first level). In this version, all decisions made by the agent are completely random.
 
-### 2. Bellman Robot
+There is just one input value to this program: *the number of tests or robots desired to run*.
 
-This is the second version of the program. In this version, the steps are calculated with the **Bellman equation**. This version was taken from [Roberto Rama's Pacman GitHub project](https://github.com/ramaroberto/pacman), so all credits to him.
+<img src="https://www.andrevital.com/extra/ai-robopath/images/input.png" width="60%" style = "margin-left:20%">
 
-### 3. Intelligent Robot
+When the input is entered, the program starts to run *n* tests, printing each movement the robot makes, alongside its current position.
 
-In this final version of the program, the robot makes its decisions based on **its actual position, the position of the reward, and the position of the penalty**. As the grid works with coordinates, the agent decides whether to go one direction or any other, always trying to get as close as possible to the reward, maintaining its distance from the penalty.
+<img src="https://www.andrevital.com/extra/ai-robopath/images/movement.png" width="45%" style = "margin-left:27.55%">
 
+Each time a robot either gets to the reward or the penalty, the execution will do a quick stop, showing the final result on screen, to the continue with the remaining tests.
 
-This series of programs were made under as a project for the [Universidad Autónoma de Aguascalientes](https://www.uaa.mx/)
+<img src="https://www.andrevital.com/extra/ai-robopath/images/win.png" width="39.5%" style = "margin-left:7%">
+<img src="https://www.andrevital.com/extra/ai-robopath/images/win.png" width="39.5%" style = "margin-left:7%">
+
+When the execution is completed, the program displays a message, showing how many robots lost, how many won and, if any robot won, it displays also the paths used by the winners.
+
+<img src="https://www.andrevital.com/extra/ai-robopath/images/paths.png" width="45%" style = "margin-left:27.55%">
