@@ -16,5 +16,3 @@ In this final version of the program, the robot makes its decisions based on **i
 
 
 This series of programs were made under as a project for the [Universidad Autónoma de Aguascalientes](https://www.uaa.mx/)
-
-:)
