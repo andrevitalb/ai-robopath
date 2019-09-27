@@ -26,7 +26,7 @@ void printBoard(int num, int x, int y){
 	}
 }
 
-// Initializa the game (Reset the values of all robots)
+// Initialize the game (Reset the values of all robots)
 void startGame(){
 	for(int i = 0; i < n; i++){
 		bots[i][0] = 0;
