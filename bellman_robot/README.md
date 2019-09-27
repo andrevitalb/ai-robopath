@@ -1,4 +1,4 @@
-# 2. Bellman Robot
+# Bellman Robot
 
 This is the second version of the program. In this version, the steps are calculated with the **Bellman equation**. This version was taken from [Roberto Rama's Pacman GitHub project](https://github.com/ramaroberto/pacman), so all credits to him.
 
