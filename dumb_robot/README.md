@@ -18,7 +18,7 @@ Each time a robot either gets to the reward or the penalty, the execution will d
 
 <p align="center">
 	<img src="https://www.andrevital.com/extra/ai-robopath/images/win.png" width="39.5%">
-	<img src="https://www.andrevital.com/extra/ai-robopath/images/win.png" width="39.5%">
+	<img src="https://www.andrevital.com/extra/ai-robopath/images/loose.png" width="39.5%">
 </p>
 
 When the execution is completed, the program displays a message, showing how many robots lost, how many won and, if any robot won, it displays also the paths used by the winners.
