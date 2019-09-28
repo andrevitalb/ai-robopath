@@ -32,6 +32,6 @@ After that, the results screen is shown, which shows all the robots with the ste
 Alongside this results screen is a _Path Reviewer_ option, which, as it names says, lets you review all the robots' paths to get to the reward.
 
 <p align="center">
-	<img src="https://www.andrevital.com/extra/ai-robopath/images/path_reviewer.png" width="55%">
+	<img src="https://www.andrevital.com/extra/ai-robopath/images/path_reviewer.png" width="70%">
 	<img src="https://www.andrevital.com/extra/ai-robopath/images/path.png" width="35%">
 </p>
