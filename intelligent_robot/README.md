@@ -33,5 +33,8 @@ Alongside this results screen is a _Path Reviewer_ option, which, as it names sa
 
 <p align="center">
 	<img src="https://www.andrevital.com/extra/ai-robopath/images/path_reviewer.png" width="70%">
-	<img src="https://www.andrevital.com/extra/ai-robopath/images/path.png" width="35%">
+</p>
+
+<p align="center">
+	<img src="https://www.andrevital.com/extra/ai-robopath/images/path.png" width="20%">
 </p>
