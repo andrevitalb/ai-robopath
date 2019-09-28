@@ -120,7 +120,7 @@ int main (){
 	if(dumbC == 0) printf("\nThe robot that took longer to get to the reward was Robot #%d, with %d steps\n", dumbs[0] + 1, dumb + 1);
 	else{
 		printf("\nThe robots that took longer to get to the reward were:\n");
-		for(int i = 0; i <= dumbC; i++) printf("Robot #%d\n", dumbs[i]);
+		for(int i = 0; i <= dumbC; i++) printf("Robot #%d\n", dumbs[i] + 1);
 		printf("Those robots took %d steps\n", dumb + 1);
 	}
 
@@ -137,7 +137,7 @@ int main (){
 
 		if(checks == -1) return 0;
 
-		printf("Robot %d:\n", checks);
+		printf("\nRobot %d:\n", checks);
 		checks--;
 
 		for(int i = 0; i <= winners[checks]; i++) printf("\t[%d][%d]\n", movs[checks][i][0], movs[checks][i][1]);
@@ -145,7 +145,4 @@ int main (){
 		cout << endl;
 		system("PAUSE");
 	}
-
-	cout << "Bye bye :)" << endl;
-	system("PAUSE");
 }
