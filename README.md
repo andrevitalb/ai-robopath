@@ -1,6 +1,6 @@
 # Robo-Labyrinth (3 levels)
 
-Three versioned Python / C/C++ program, consisting of three different implementations of a path finding agent towards a unique goal.
+Three versioned C/C++ / Python program, consisting of three different implementations of a path finding agent towards a unique goal.
 
 ### 1. Dumb Robot
 
