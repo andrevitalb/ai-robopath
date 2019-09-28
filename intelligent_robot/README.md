@@ -38,3 +38,5 @@ Alongside this results screen is a _Path Reviewer_ option, which, as it names sa
 <p align="center">
 	<img src="https://www.andrevital.com/extra/ai-robopath/images/path.png" width="20%">
 </p>
+
+The program will keep cycling in this screen until you enter -1, as an exit flag. It will then quit.
