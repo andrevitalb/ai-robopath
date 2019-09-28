@@ -18,5 +18,5 @@ In this final version of the program, the robot makes its decisions based on **i
 This series of programs were made under as a project for the [Universidad Autónoma de Aguascalientes](https://www.uaa.mx/)
 
 <p align="center">
-	<img src="https://www.andrevital.com/images/logo_contained_negative.svg" width="100px">
+	<img src="https://www.andrevital.com/images/logo_contained_negative.svg" width="70px">
 </p>
