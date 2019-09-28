@@ -26,7 +26,7 @@ When all robots are done, a message displaying the one or the ones that took lon
 After that, the results screen is shown, which shows all the robots with the steps each required to get to the reward.
 
 <p align="center">
-	<img src="https://www.andrevital.com/extra/ai-robopath/images/results_screen.png" width="40%">
+	<img src="https://www.andrevital.com/extra/ai-robopath/images/results_screen.png" width="20%">
 </p>
 
 Alongside this results screen is a _Path Reviewer_ option, which, as it names says, lets you review all the robots' paths to get to the reward.
